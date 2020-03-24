@@ -1,0 +1,4 @@
+useDynLib(DataScienceInterviewPractice)
+import(RcppEigen)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
