@@ -8,7 +8,9 @@ Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: More about what it does (maybe more than one line)
 License: What license is it under?
 Imports: 
-  Rcpp (>= 1.0.4)
-LinkingTo: Rcpp, RcppEigen
+    Rcpp
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
 RoxygenNote: 7.1.0
 Encoding: UTF-8
